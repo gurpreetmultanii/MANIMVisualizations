@@ -27,16 +27,16 @@ This repository contains a series of MANIM animations that illustrate the concep
     ```
 3. **Set up Your Python Environment**
 
-It is recommended to use a virtual environment (e.g., venv or conda).
+   It is recommended to use a virtual environment (e.g., venv or conda).
 
-4. **Install MANIM (Community Edition) and other required dependencies (e.g., NumPy, Sympy):**
-    ```
-    pip install manim
-    pip install numpy
-    pip install sympy
-    ```
+   Install MANIM (Community Edition) and other required dependencies (e.g., NumPy, Sympy).
+   ```
+   pip install manim
+   pip install numpy
+   pip install sympy
+   ```
 
-    Check the Manim Community Documentation for the correct installation steps corresponding to your OS and Python version.
+   Check the Manim Community Documentation for the correct installation steps corresponding to your OS and Python version.
 
 5. **How to Run Each Script**
 
@@ -44,7 +44,9 @@ It is recommended to use a virtual environment (e.g., venv or conda).
 
     ```
     cd Animations
+    
     manim -p -ql DetailsAndIntuitionVisualization.py DetailsAndIntuitionScene
+    
     -p automatically previews the video after rendering.
 
     -ql renders at low quality (faster). You can use -qm or -qh for medium/high quality.
